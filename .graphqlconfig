@@ -1,0 +1,11 @@
+{
+    "name": "SpaceX",
+    "schemaPath": "backend/src/schema.js",
+    "extensions": {
+        "endpoints": {
+            "launches": {
+                "url": "http://localhost:5000/graphql"
+            }
+        }
+    }
+}
